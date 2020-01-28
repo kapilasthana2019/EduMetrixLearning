@@ -1,0 +1,130 @@
+.profile-container{
+
+    /* background-color: red; */
+    margin-top: 105px;
+    margin-left: 306px;
+    width: 82%;
+}
+.profile-sub-container{
+    /* background-color: yellow; */
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.user-profile{
+    background-color: rosybrown;
+    width: 30%;
+}
+
+.user-posts{
+    /* background-color: royalblue; */
+    padding:5px;
+    width: 47%;
+}
+.profile-ad{
+    background-color: saddlebrown;
+    width: 22%;
+}
+
+.profile-post{
+    /* background-color: salmon;  */
+}
+
+#profile-post-card{
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+#profile-user-pic{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#profile-pic{
+    /* background-color: red; */
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#profile-user-img{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+
+#profile-post-date{
+    width: 78%;
+    /* background-color: yellow; */
+    text-align: left;
+}
+
+#profile-username{
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(68, 67, 67);
+}
+
+#profile-post-date{
+    font-size: 13px;
+    color: gray;
+}
+.profile-post-data{
+    /* background-color: red; */
+    margin-top: 10px;
+}
+#profile-post-img{
+    width: 100%;
+}
+
+#profile-about-img{
+    margin-top: 10px;
+    /* background-color: red; */
+    text-align: left;
+}
+#profile-like-comment{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.profile-comment-div{
+    background-color: #e4e6e8;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+#profile-comment-section{
+    width: 75%;
+
+}
+#profile-post{
+    /* background-color: green; */
+    width: 10%;
+    margin-left: 30px;
+}
+
+#profile-post-btn{
+    /* background-color: red; */
+}
+
+.profile-bottom{
+    /* background-color: red; */
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+}

@@ -1,0 +1,298 @@
+.Login-Container{
+
+    background-image: url("../Assets/login-bg.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    box-sizing: content-box;
+    position: absolute;
+    width: 100%; 
+    zoom: 1;
+}
+
+.login-sub-container{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    /* background-color: red; */
+    box-shadow: 0 2.3rem 1rem rgba(0,0,0,.15)!important;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    margin-top: 19px;
+    padding: 1px;
+  
+}
+.login-part{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+#company{
+    width: 50%;
+   
+    border-radius: 10px 0px 0px 10px;
+    background-image: url('../Assets/login-img.jpg');
+    /* background-color: green; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#content-part{
+    width: 50%;
+    border-radius: 0px 10px 10px 0px;
+    /* background-color: yellowgreen; */
+}
+
+#company-logo{
+
+    margin-top: 50px;
+}
+.headings{
+margin-top: 270px;
+}
+
+#title1{padding: 10px;
+    font-weight: bold;
+    color: white;
+    font-size: 15px; 
+}
+
+.logo-aboutus{
+
+    display:  flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+#edumetrix-logo{
+    /* background-color: red; */
+    width: 59%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#edu-img{
+    width: 82px;
+    height: 73px;
+}
+#about-us{
+    font-size: 13px;
+    margin-right: 20px;
+
+}
+#about-us:hover{
+    font-size: 13px;
+    color: #1a576f;
+   cursor: pointer;   
+}
+
+#comp-title{
+    margin-right: 15px;
+    font-size: 15px;
+    color: #0b3d52;
+    font-weight:900;
+    margin-top: -5px;
+}
+#student-heading-container{
+    /* background-color: red; */
+    padding: 0px 40px 0px 40px;
+    margin-top: 30px;
+}
+
+#student-heading{
+    color: white;
+    margin: auto;
+    width: 20%;
+    background-color: #164e64;
+    border-bottom-color: transparent;
+    border-radius: 10px 10px 0 0;
+    padding: 12px 50px;
+}
+hr{
+    margin-top: 1px;
+}
+
+#input{
+   
+    margin-top: 15px;
+    height: 40px;
+    border-radius: 20px 20px 20px 20px;
+    border: 1px solid rgb(212, 209, 209);
+    /* background-color: red; */
+}
+#text{
+    margin-left: 5px;
+    font-size: 13px;
+    padding: 13px;
+}
+
+#remember-checkbox{
+display: flex;
+flex-direction: row;
+
+}
+
+#remember{
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 13px;
+}
+
+#signIn-btn{
+margin-top: 10px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+#sign-in{
+padding: 13px;
+border-radius: 30px;
+font-size: 14px;
+/* background-color: blue; */
+transition: all linear 0.1s;
+font-family: "Roboto", sans-serif;
+font-weight: bold;
+width: 330px;
+color: #edeeee;
+box-sizing: border-box;
+border: 1px solid #b1b1aa;
+background-color: #164e64;
+box-shadow: #fff 0px 1px 0px inset;
+background-image: linear-gradient(top, #164e64, #093445);
+cursor: pointer;
+}
+
+#create-title{
+
+    margin-top: 20px;
+}
+
+#sign-up{
+    padding: 13px;
+    border-radius: 30px;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    transition: all linear 0.1s;
+    width: 330px;
+    color: #0b3d52;
+    box-sizing: border-box;
+    max-width: 100%;
+    border: 1px solid #b1b1aa;
+    background-color: #ecece9;
+    box-shadow: #fff 0px 1px 0px inset;
+    background-image: linear-gradient(to bottom, #ecece9, #bfbfb8);
+    cursor: pointer;
+
+}
+
+#forgot{
+    font-size: 13px;
+    color: #1a576f;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+#disclaimer{
+    background-color: transparent;
+    width:65%;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    bottom: 15px;
+}
+
+#disclaimer-heading{
+    color: #707070;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#disclaimer-heading:hover{
+    text-decoration: underline;
+
+}
+#edu{
+    font-size: 14px;
+    color: rgb(48, 46, 46);
+}
+
+#Privacy{
+    color: #707070;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#Privacy:hover{
+    text-decoration: underline;
+
+}
+#terms{
+    color: #707070;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#terms:hover{
+    text-decoration: underline;
+}
+
+#contact{
+    color: #707070;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#contact:hover{
+    text-decoration: underline;
+
+}
+
+#tele-input{
+    margin-top: 15px;
+    margin-left: 5px;
+}
+#usernamewithpass{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+  }
+
+  #justName{
+    margin-top: 10px;
+    width: 50%;
+    
+  }
+  #surName{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 50%;
+  }
+
+  #name{
+    border-radius: 20px 20px 20px 20px;
+    border: 1px solid rgb(212, 209, 209);
+    padding: 10px;
+  }
+  #surname{
+    
+  }
+  #surnameid{
+    border-radius: 20px 20px 20px 20px;
+    border: 1px solid rgb(212, 209, 209);
+    padding: 10px;
+  }

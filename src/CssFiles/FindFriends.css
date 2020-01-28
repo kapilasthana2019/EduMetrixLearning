@@ -1,0 +1,255 @@
+.find-frnd-container{
+    /* background-color: red; */
+     margin-top: 80px;
+    width: 82%;
+  
+    margin-left: 301px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+.find-frnd-bottom{
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+   
+    /* margin-left: 301px;  */
+    bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+#find-frnd-chatbot{
+    width: 20%;
+    background-color: #5b9ba7;;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius:  15px 15px 0px 0px;
+}
+
+#find-frnd-images{
+    width: 72%;
+    /* background-color: rgb(245, 240, 240); */
+   padding: 20px;
+   margin-right: 20px;
+   
+}
+#find-frnd-suggestion{
+    position: fixed;
+    right: 10px;
+   width: 20%;
+   height: 89vh;
+   overflow-y: scroll;
+   margin-left: 20px;
+   /* background-color: yellow;  */
+}
+
+.frnd-chatbot{
+    background-color: white;
+        border: 1px solid lightgray;
+    border-radius:  15px 15px 0px 0px;
+    margin-right: 10px;
+    height: 450px;
+    width: 20%;
+}
+#top-pics-bot-header{
+    display: flex; 
+    padding: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #5b9ba7;;
+}
+#top-pics-bot-frnds{
+    overflow-y: scroll;
+    height: 400px;
+}
+
+.top-pics-prompt-container{
+    background-color: #5b9ba7;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.top-pics-messages{
+    height: 330px;
+    /* background-color: teal; */
+    border-bottom: 1px solid lightgray;
+}
+.top-pics-bot-input{
+   padding: 10px;
+    /* background-color: red; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#smiley-btn{
+    background-color: transparent;
+    border: none;
+    margin-right: 10px;
+}
+#top-pics-attach-popper{
+    border: 1px solid rgb(43, 42, 42);
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 25px;
+    color: black;
+    font-size: 15px;
+}
+
+/* for find friends page */
+
+.find-friend-container{
+    background-color: rgb(236, 231, 231);
+    border: 1px solid lightgray;
+    margin-top: 130px;
+    width: 82%;
+    margin-left: 302px;
+}
+
+.search-container{
+    display: flex;
+    flex-direction: row;
+    /* background-color: red; */
+}
+
+
+.page-search-bar{
+
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+#search-name{
+    display: flex;
+    border: 1px solid lightgray;
+    width: 15%;
+}
+#search-text{
+    padding: 5px;
+    background-color: white;
+}
+#search-btn{
+ /* margin-left: ; */
+ margin: auto -120px;
+  font-weight: bold;
+}
+#search-icon{
+    margin-right: 10px;
+}
+#search{
+
+    font-weight: bold;
+   
+}
+#search-img{
+    height: 18px;
+    margin-bottom:2px ;
+}
+
+#result-by-heading{
+    background-color: white;
+    font-weight: bold;
+    font-style: italic;
+    display: flex;
+    margin-top: 50px;
+}
+
+#friend-cards{
+    margin-top: 10px;
+    background-color: white;
+   
+
+
+}
+
+#frnd-masonry{
+    /* background-color: yellow; */
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
+}
+
+#frnd-card-container{
+    margin-left: 50px;
+    background-color: red;
+}
+#frnd-card{
+    margin-left: 50px;
+    /* background-color: red; */
+    margin-bottom: 10px;
+   margin-top: 10px;
+    padding: 20px;
+    display: flex;
+flex-direction: row;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+#usr-img-container{
+    border: 2px solid rgb(61, 192, 192);
+    border-radius: 100%;
+    padding: 3px;
+   
+}
+#user-img{
+    height: 90px;
+    width: 90px;
+    border-radius: 100%; 
+}
+
+#user-details{
+    margin: 10px auto;
+    margin-left: 20px;
+    /* background-color: yellow; */
+    min-width: 350px;
+
+}
+#user-name{
+    display: flex;
+    font-size: 20px;
+}
+#usr-state{
+    font-size: 12px;
+    display: flex;
+    color: #989aa1;;
+}
+
+#usr-followers{
+    margin-top: 20px;
+}
+
+#follow{
+    display: flex;
+    margin-top: 10px;
+    color: #70c6d7;
+    font-size: 12px;
+}
+
+#join-head{
+    display: flex;
+    margin-top: 10px;
+    color: #008080;
+    font-size: 12px;  
+}
+
+#follow-btn{
+    background-color: rgb(75, 73, 73);
+    border-radius: 20px;
+    width: 70px;
+    margin-top: 40px;
+    border: none;
+    padding: 3px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+  
+}

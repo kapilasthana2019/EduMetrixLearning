@@ -1,0 +1,83 @@
+.get-started-container{
+
+    /* background-color: red; */
+    height: 100vh;
+}
+.get-sub-container{
+
+    
+    position: relative;
+    width: 40%;
+    height: 80vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#instruction-title{
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    color: #164e64;
+}
+
+#otp-message{
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    margin-top: 15px;
+}
+
+
+#otp-fields{
+    /* background-color: red; */
+    margin-top: 20px;
+    width: 80%;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#email-otp-head{
+/* background-color: yellowgreen; */
+display: flex;
+color: #164e64;
+/* font-weight: bold; */
+font-size: 14px;
+}
+
+
+
+#mobile-otp-head{
+    display: flex;
+    color: #164e64;
+    /* font-weight: bold; */
+    font-size: 14px; 
+}
+
+#email-otp-field{
+
+    border: 1px solid gray;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+#mobile-otp-field{
+ border: 1px solid gray;
+ border-radius: 15px;
+ margin-top: 5px;
+}
+
+#email-otp{
+    margin-left: 10px;
+}
+
+hr{
+    margin-top: 20px;
+}

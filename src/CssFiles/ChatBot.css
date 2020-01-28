@@ -1,0 +1,206 @@
+
+.chatbot-container{
+
+    width: 82%;
+    /* background-color: red; */
+    margin-top: 100px;
+    margin-left: 306px;
+}
+.chatbot-sub-container{
+    /* background-color: yellowgreen; */
+    padding: 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.chatbot-section1{
+    /* background-color: teal; */
+    width: 35%;
+}
+.chatbot-section2{
+    /* background-color: thistle; */
+    width: 65%;
+}
+
+.social-follow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* background-color: brown; */
+    padding: 10px;
+    margin-left: 20px;
+}
+
+#follow-linked{
+    /* background-color: wheat; */
+    width: 48%;
+}
+#linked-in{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    /* background-color: red; */
+    /* margin-left: 10px; */
+}
+#linkedIn-logo{
+    background-color: #0e76a8;
+    padding: 5px;
+    width: 52%;
+    font-size: 15px;
+    font-weight: bolder;
+    color: white;
+    display: flex;
+}
+#link-img{
+    height: 20px;
+}
+
+#follow-linkedIn{
+   margin-left: 10px;
+}
+
+#linkedIn-posts{
+    background-color: white;
+    overflow-y: scroll;
+    height: 150px;
+}
+
+.linked-post-container{
+    position: relative;
+    /* background-color: red; */
+    padding: 5px 5px 0px 0px;
+    width: 100%;
+}
+#link-post{
+    display: flex;
+    flex-direction: row;
+}
+
+#post-content{
+    width: 80%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    word-wrap: break-word;
+    justify-content: flex-start;
+    text-align: left;
+    margin-left: 10px;
+}
+#link-post-img{
+    height: 60px;
+    width: 70px;
+    margin-left: 10px;
+}
+
+.follow-facebook{
+    /* background-color: red; */
+    width: 48%;
+}
+
+#facebook{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#fb-logo{
+    background-color: #4267B2;
+    padding: 5px;
+    width: 52%;
+    font-size: 15px;
+    font-weight: bolder;
+    color: white;
+    display: flex;
+}
+#twitter-logo{
+    background-color: #00acee;
+    padding: 5px;
+    width: 52%;
+    font-size: 15px;
+    font-weight: bolder;
+    color: white;
+    display: flex;
+}
+
+#insta-logo{
+    /* background: linear-gradient(#515BD4,#8134AF,#DD2A7B,#FEDA77,#F58529); */
+   background-color: white;
+   border:1px solid rgb(221, 84, 84);
+    padding: 5px;
+    width: 52%;
+    font-size: 15px;
+    font-weight: bolder;
+    color: black;
+    display: flex;
+}
+
+.slides-div{
+    margin-top: 30px;
+    /* background-color: red; */
+    width: 60%;
+    margin-left: 20px;
+    height: 280px;
+    margin-bottom: 20px;
+}
+#slide-img{
+    height: 280px;
+    width: 600px;
+}
+
+.chatbot-bottom{
+    position: fixed;
+    width: 100%;
+   /* background-color: red; */
+   padding: 10px;
+    bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#whatsNew-div{
+    background-color: black;
+
+}
+#whatsNew{
+    position: relative;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-size: 30px;
+  font-weight: 900;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  background-size: 120% 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -ms-background-clip: text;
+  -ms-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  background-image: linear-gradient(45deg, 
+                    #7794ff, 
+                    #44107A,
+                    #FF1361,
+                    #FFF800);
+  animation: .8s shake infinite alternate;
+ 
+}
+@keyframes shake {
+    0% { transform: skewX(-25deg); }
+    5% { transform: skewX(25deg); }
+    10% { transform: skewX(-25deg); }
+    15% { transform: skewX(25deg); }
+    20% { transform: skewX(0deg); }
+    100% { transform: skewX(0deg); }  
+  }
+
+.ad-container{
+    background-color: white;
+}
