@@ -39,7 +39,7 @@ class ChatBotPage extends Component {
                                     What's New today
                              </div>
                             </div>
-                            <div>
+                            <div style={{marginTop:"30px", height:"80vh",overflowY:"scroll"}}>
                                 <AdvertiseCards/>
                                 <AdvertiseCards/>
                                 <AdvertiseCards/>
@@ -48,7 +48,10 @@ class ChatBotPage extends Component {
                                 <AdvertiseCards/>
                                 <AdvertiseCards/>
                                 <AdvertiseCards/>
-                                
+                                <AdvertiseCards/>
+                                <AdvertiseCards/>
+
+
                             </div>
 
                         </div>
@@ -137,11 +140,19 @@ class ChatBotPage extends Component {
 
                                         </div>
                                         <div id="linkedIn-posts">
-                                            <LinkedInPost />
-                                            <LinkedInPost />
-                                            <LinkedInPost />
-                                            <LinkedInPost />
-                                            <LinkedInPost />
+                                            <img src={require('../Assets/kapil.jpg')} id="instaimg"/>
+                                            <img src={require('../Assets/kapil.jpg')} id="instaimg"/>
+                                            <img src={require('../Assets/kapil.jpg')} id="instaimg"/>
+                                            <img src={require('../Assets/kapil.jpg')} id="instaimg"/>
+                                            <img src={require('../Assets/kapil.jpg')} id="instaimg"/>
+                                            <img src={require('../Assets/kapil.jpg')} id="instaimg"/>
+                                            <img src={require('../Assets/kapil.jpg')} id="instaimg"/>
+                                            <img src={require('../Assets/kapil.jpg')} id="instaimg"/>
+                                            <img src={require('../Assets/kapil.jpg')} id="instaimg"/>
+                                            <img src={require('../Assets/kapil.jpg')} id="instaimg"/>
+                                            <img src={require('../Assets/kapil.jpg')} id="instaimg"/>
+                                            <img src={require('../Assets/kapil.jpg')} id="instaimg"/>
+
                                         </div>
                                     </div>
                                 </div>

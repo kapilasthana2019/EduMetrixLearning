@@ -9,7 +9,7 @@
 .chatbot-sub-container{
     /* background-color: yellowgreen; */
     padding: 10px;
-    margin-top: 20px;
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -20,7 +20,7 @@
 }
 .chatbot-section2{
     /* background-color: thistle; */
-    width: 65%;
+    width: 60%;
 }
 
 .social-follow{
@@ -48,7 +48,7 @@
 #linkedIn-logo{
     background-color: #0e76a8;
     padding: 5px;
-    width: 52%;
+    width: 56%;
     font-size: 15px;
     font-weight: bolder;
     color: white;
@@ -64,8 +64,12 @@
 
 #linkedIn-posts{
     background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+ 
     overflow-y: scroll;
-    height: 150px;
+    height: 167px;
 }
 
 .linked-post-container{
@@ -110,7 +114,7 @@
 #fb-logo{
     background-color: #4267B2;
     padding: 5px;
-    width: 52%;
+    width: 60%;
     font-size: 15px;
     font-weight: bolder;
     color: white;
@@ -119,7 +123,7 @@
 #twitter-logo{
     background-color: #00acee;
     padding: 5px;
-    width: 52%;
+    width: 60%;
     font-size: 15px;
     font-weight: bolder;
     color: white;
@@ -131,18 +135,25 @@
    background-color: white;
    border:1px solid rgb(221, 84, 84);
     padding: 5px;
-    width: 52%;
+    width: 60%;
     font-size: 15px;
     font-weight: bolder;
     color: black;
     display: flex;
 }
 
+#instaimg{
+    height: 82px;
+    width: 116px;
+    margin-left: 4px;
+    margin-top: 2px;
+}
+
 .slides-div{
-    margin-top: 30px;
+    margin-top: 10px;
     /* background-color: red; */
     width: 60%;
-    margin-left: 20px;
+    margin-left: 30px;
     height: 280px;
     margin-bottom: 20px;
 }
@@ -163,7 +174,7 @@
 }
 
 #whatsNew-div{
-    background-color: black;
+    /* background-color: black; */
 
 }
 #whatsNew{
@@ -204,3 +215,31 @@
 .ad-container{
     background-color: white;
 }
+
+.advertisement-post-container{
+    position: relative;
+    /* background-color: red; */
+    padding: 8px 8px 8px 0px;
+    width: 100%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#add-post{
+    display: flex;
+    flex-direction: row;
+}
+
+#advertisement-content{
+    width: 80%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    word-wrap: break-word;
+    justify-content: flex-start;
+    text-align: left;
+    margin-left: 10px;
+}
+

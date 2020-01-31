@@ -52,6 +52,7 @@ class Slideshow extends Component {
                             <div >
                             <ReactPlayer
                                 width="99%"
+                                height="280px"
                                 url="https://www.youtube.com/watch?v=Ka1N5WY4QGI"
                                 controls={true} />
                             </div>

@@ -81,16 +81,16 @@ class HomePage extends Component {
         this.props.history.push("/HomePage/FindFrieds")
     }
 
-    Earning = (event)=>{
-        
+    Earning = (event) => {
+
         this.props.history.push("/HomePage/Earning")
     }
 
-    chatBot = (event)=>{
+    chatBot = (event) => {
         this.props.history.push("/HomePage/ChatBotPage")
     }
 
-    Profile = (event)=>{
+    Profile = (event) => {
         this.props.history.push("/HomePage/MyProfile")
 
     }
@@ -162,9 +162,9 @@ class HomePage extends Component {
                                 <ListItemText primary={"Find Friends"} />
                             </ListItem>
 
-                            <ListItem 
-                            onClick = {event=>this.Earning(event)}
-                            button>
+                            <ListItem
+                                onClick={event => this.Earning(event)}
+                                button>
                                 <ListItemIcon>
                                     <img src={require('../Assets/dollar.png')} id="homeImg" />
                                 </ListItemIcon>
@@ -172,8 +172,8 @@ class HomePage extends Component {
                             </ListItem>
 
                             <ListItem
-                            onClick = {event=>this.chatBot(event)}
-                            button>
+                                onClick={event => this.chatBot(event)}
+                                button>
                                 <ListItemIcon>
                                     <img src={require('../Assets/chat.png')} id="homeImg" />
                                 </ListItemIcon>
@@ -181,8 +181,8 @@ class HomePage extends Component {
                             </ListItem>
 
                             <ListItem
-                            onClick ={event=>this.Profile(event)}
-                            button>
+                                onClick={event => this.Profile(event)}
+                                button>
                                 <ListItemIcon>
                                     <img src={require('../Assets/setting.png')} id="homeImg" />
                                 </ListItemIcon>
@@ -201,13 +201,16 @@ class HomePage extends Component {
 
                         <div>
                             <div id="comp">
-                                Edumetrix © 2019
+                                Edumetrix © ® 2019
                            </div>
                             <div id="discriptions">
-                                <div>Disclaimer.</div>
-                                <div>Privacy policy.</div>
-                                <div>Terms of services</div>
-                                <div>Contact</div>
+                                <div id="desclaimer">Disclaimer</div>
+                                <div id="policy"> {'\u2022'} Privacy policy</div>
+                                <div id="policy">{'\u2022'} Terms of services</div>
+                            </div>
+
+                            <div id="contact">
+                                <div>{'\u2022'} Contact</div>
                             </div>
 
                         </div>

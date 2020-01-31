@@ -3,6 +3,7 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import ProfilePostCards from './ProfilePostCards'
 import ProfileChatBot from './ProfileChatBot'
+import UserBio from './UserBio'
 import '../CssFiles/MyProfile.css'
 
 class MyProfile extends Component {
@@ -11,7 +12,7 @@ class MyProfile extends Component {
         super(props)
 
         this.state = {
-            botToggle: false
+            botToggle: false,
         }
     }
 
@@ -45,26 +46,30 @@ class MyProfile extends Component {
 
                 <div className="profile-container">
                     <div className="profile-sub-container">
-                   <div className = "user-profile">
-                       Profile
-                   </div>
-                   <div className = "user-posts">
-                      <ProfilePostCards/>
-                      <ProfilePostCards/>
-                      <ProfilePostCards/>
-                      <ProfilePostCards/>
-                   </div>
-                   <div className = "profile-ad">
-                       advertisement
+
+                        <div className="user-profile">
+                                <UserBio/>
+                        </div>
+
+
+
+                        <div className="user-posts">
+                            <ProfilePostCards />
+                            <ProfilePostCards />
+                            <ProfilePostCards />
+                            <ProfilePostCards />
+                        </div>
+                        <div className="profile-ad">
+                            advertisement
                    </div>
                     </div>
                 </div>
             
-            <div className = "profile-bottom">
-              
-              {
+                <div className="profile-bottom">
+
+                    {
                         (this.state.botToggle) ? <ProfileChatBot
-                         chatbottoggle = {this.chatbottoggle}/> :
+                            chatbottoggle={this.chatbottoggle} /> :
                             <div onClick={event => this.chatbottoggle(event)} id="find-frnd-chatbot">
                                 <div className="bot-logo-header">
                                     <div id="bot-image">
@@ -76,8 +81,8 @@ class MyProfile extends Component {
                             </div>
                     }
 
-               </div> 
-            
+                </div>
+
             </div>
         )
     }

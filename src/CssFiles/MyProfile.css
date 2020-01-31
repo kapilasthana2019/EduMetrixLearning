@@ -14,8 +14,12 @@
 }
 
 .user-profile{
-    background-color: rosybrown;
-    width: 30%;
+    /* background-color: rosybrown; */
+    width: 32%;
+    /* position: fixed;
+    left: 0px; */
+    height: 87vh;
+    overflow-y: scroll;
 }
 
 .user-posts{
@@ -114,17 +118,188 @@
     margin-left: 30px;
 }
 
-#profile-post-btn{
-    /* background-color: red; */
-}
 
 .profile-bottom{
     /* background-color: red; */
     position: fixed;
     width: 100%;
     bottom: 0px;
+    right: 0px;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     
+}
+#edu-id{
+    font-weight: bold;
+    padding: 5px;
+    font-size: 18px;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+}
+
+#profile-score{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#followers-div{
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+#followers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 30%;
+    color: rgb(82, 120, 247);
+    font-weight: bold;
+    /* background-color: red; */
+}
+#follow-no{
+    background-color: cadetblue;
+    padding: 0px 5px 0px 5px;
+    color: white;
+    font-weight: bold;
+    border-radius: 20%;
+    margin-left: 10px;
+}
+
+.profile-img-part{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    margin-top: 20px;
+    /* background-color: red; */
+}
+#profile-img-contain{
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+}
+
+#profile-detail{
+    margin-left: 10px;
+    text-align: left;
+    /* margin-bottom: 10px; */
+}
+
+#profile-name{
+    font-size: 18px;
+    font-weight: bold;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+#user-state{
+    font-size: 14px;
+    color: rgb(105, 103, 103);
+}
+
+#usr-dob{
+    font-size: 14px;
+    color: rgb(105, 103, 103);
+}
+
+#edit-profile-div{
+    /* background-color: lightgray; */
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#edit-profile-btn{
+    background-color: transparent;
+    border: none;
+    color: rgb(82, 120, 247);
+    text-decoration: underline;
+}
+#pencil-img{
+    margin-right: 5px;
+}
+.user-bio-main-div{
+    margin-top: 20px;
+}
+
+#user-describe{
+    display: flex;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#about-description{
+    /* background-color: red; */
+    margin-top: 5px;
+    width: 95%;
+    margin-left: 10px;
+    text-align: left;
+    word-spacing: 1px;
+    line-height: 20px;
+    font-style: oblique;
+}
+
+#subtitle{
+    margin-top: 10px;
+    font-weight: 500;
+    font-style: oblique;
+}
+
+#pdf-btn-div{
+    margin-top: 15px;
+    padding: 10px;
+}
+#pdf-btn{
+    width: 50%;
+    padding: 5px;
+    border: none;
+    background-color:  #cc0000;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#pdf-img{
+    margin-right: 10px;
+}
+#pdf{
+    height: 30px;
+}
+
+.profile-popup{
+    width: 600px;
+}
+
+#update-title{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.profile-table{
+    padding: 10px;
+}
+
+.profile-table th{
+    width: 40%;
+}
+.update-close-div{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    justify-content: flex-end;
+    margin-top: -20px;
+}
+#update-close-btns{
+    display: flex;
+    width: 30%;
+    flex-direction: row;
+    justify-content: space-around;
 }

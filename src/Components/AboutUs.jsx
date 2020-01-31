@@ -297,13 +297,13 @@ class AboutUs extends Component {
                         </div>
 
                     </div>
-                    <div className="active-users">
+                    <div className="active-users-div">
                         <div className="active-user-content">
                             <div id="active-heading">
                                 Active Users
                           </div>
 
-                            <div id="no-users">
+                            <div id="no-users-div">
                                 <div id="user1">
                                     0
                              </div >
@@ -327,9 +327,9 @@ class AboutUs extends Component {
                             <div id="team-heading">
                                 Team
                             </div>
-                            <div className = "members-list">
+                            <div className = "members-list-div">
                                 
-                                <div id = "users"> 
+                                <div id = "users-div"> 
                                 {
                                    TeamMembers.map((item,key)=>
                                        <TeamUsers TeamMembers = {item}/>

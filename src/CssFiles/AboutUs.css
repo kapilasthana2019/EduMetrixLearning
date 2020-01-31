@@ -99,7 +99,7 @@
 
 #aboutus{
     /* background-color: yellowgreen; */
-    width: 75%;
+    width: 80%;
 }
 
 #heading{
@@ -115,9 +115,9 @@
     display: flex;
 }
 
-.active-users{
+.active-users-div{
     width: 25%;
-    /* background-color: #63e7fa; */
+    background-color: #63e7fa;
 }
 
 .active-user-content{
@@ -135,7 +135,7 @@
     margin: auto ; 
 }
 
-#no-users{
+#no-users-div{
     display: flex;
     flex-direction: row;
     width: 90%;
@@ -181,12 +181,12 @@
 }
 
 
-.members-list{
+.members-list-div{
 /* background-color: yellowgreen; */
 margin-top: 15px; 
 
 }
-#users{
+#users-div{
     width: 100%;
     /* background-color: red; */
     /* margin: auto; */

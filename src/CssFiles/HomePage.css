@@ -21,20 +21,28 @@
     margin-bottom: 10px;
 }
 #comp{
-    font-size: 11px;
+    font-size: 12px;
     margin-top: 12px;
     margin-bottom: 10px;
-    margin-left: 12px;
-    display: flex;
+   display: flex;
+   margin-left: 15px;
+   
 }
 #discriptions{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+  
     font-size: 11px;
     width: 90%;
     margin-top: 12px;
-    margin-left: 12px;
+    margin-left: 15px;
+    display: flex;
+}
+#contact{
+    font-size: 11px;
+    color: white;
+    width: 90%;
+    margin-top: 12px;
+    margin-left: 15px;
+    display: flex;
 }
 
 .profile-header{
@@ -407,11 +415,12 @@ margin-left: 10px;
     bottom: 0px;
     width: 20%;
     padding: 10px;
-    right: 5px;
+    right: 10px;
     background-color: #5b9ba7;
     float: right;
     cursor: pointer;
     border-radius:  15px 15px 0px 0px;
+
 }
 
 .bot-logo-header{
@@ -577,4 +586,18 @@ border: 1px solid lightgray;
 #post-img{
    
     width: 100%;
+}
+
+#desclaimer:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#policy{
+    margin-left: 5px;
+}
+
+#policy:hover{
+    cursor: pointer;
+    text-decoration: underline;
 }
