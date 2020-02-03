@@ -1,0 +1,29 @@
+.Desclaimer-container-div{
+    margin-top: 75px;
+    width: 78%;
+    margin-bottom: 100px;
+    margin-left: 240px;
+    /* background-color: red; */
+}
+#Desclaimer-heading{
+    display: flex;
+    color: #323232;
+    font-family: inherit;
+    font-size: 32px;
+    line-height: 1.2;
+    margin-left: 8px;
+    padding: 0px 0px 15px;
+}
+#company-address-part{
+    display: flex;
+    margin-top: 20px;  
+}
+#Address{
+    margin-top: -20px;
+}
+#email-div{
+    margin-top: -10px;
+}
+a{
+    margin-left: 10px;
+}

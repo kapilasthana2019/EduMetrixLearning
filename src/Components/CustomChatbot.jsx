@@ -127,7 +127,7 @@ class CustomChatbot extends Component {
                                 height: 100
                             }
                         }}
-                        floatingIcon={require('../Assets/coin.png')}
+                        floatingIcon={require('../Assets/logoCoin.png')}
                         steps={steps}  {...config} />
                 </ThemeProvider>
             </div>

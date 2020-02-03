@@ -95,6 +95,22 @@ class HomePage extends Component {
 
     }
 
+    desclaimer = (event)=>{
+        this.props.history.push("/Site/Desclaimer")
+    }
+
+    privacyPolicy = (event)=>{
+        this.props.history.push("/Site/policy")
+    }
+
+    terms =(event)=>{
+        this.props.history.push("/Site/TermsServices")
+    }
+
+    contact = (event)=>{
+        this.props.history.push("/Site/contact")
+    }
+
     render() {
         return (
             <div>
@@ -118,7 +134,7 @@ class HomePage extends Component {
                             </div>
 
                             <div id="coin-div">
-                                <img src={require("../Assets/whiteCoin.png")}
+                                <img src={require("../Assets/logoCoin.png")}
                                     style={{ height: "157px" }} />
                             </div>
 
@@ -204,12 +220,12 @@ class HomePage extends Component {
                                 Edumetrix © ® 2019
                            </div>
                             <div id="discriptions">
-                                <div id="desclaimer">Disclaimer</div>
-                                <div id="policy"> {'\u2022'} Privacy policy</div>
-                                <div id="policy">{'\u2022'} Terms of services</div>
+                                <div id="desclaimer" onClick = {event=>this.desclaimer(event)}>Disclaimer</div>
+                                <div id="policy" onClick = {event=>this.privacyPolicy(event)}> {'\u2022'} Privacy policy</div>
+                                <div id="policy" onClick = {event=>this.terms(event)}>{'\u2022'} Terms of services</div>
                             </div>
 
-                            <div id="contact">
+                            <div id="contact" onClick = {event=>this.contact(event)}>
                                 <div>{'\u2022'} Contact</div>
                             </div>
 

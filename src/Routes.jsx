@@ -13,6 +13,10 @@ import FindFrieds from './Components/FindFrieds'
 import Earning from './Components/Earning'
 import ChatBotPage from './Components/ChatBotPage'
 import MyProfile from './Components/MyProfile'
+import Desclaimer from './Components/Desclaimer'
+import Policy from './Components/TermsPolicy'
+import TermsServices from './Components/TermsService'
+import Contact from './Components/Contact'
 const Routes = () => (
 
     <BrowserRouter>
@@ -31,7 +35,11 @@ const Routes = () => (
             <Route path = "/HomePage/ChatBotPage" component = {ChatBotPage} exact = {true}/>  
             <Route path = "/HomePage/MyProfile" component = {MyProfile} exact ={true}/>
              <Route path = "/Site" component = {Site} />
-             <Route path="/Site/AboutUs" component={AboutUs}/>
+             <Route path="/Site/AboutUs" component={AboutUs} exact = {true}/>
+             <Route path="/Site/Desclaimer" component={Desclaimer} exact = {true}/>
+             <Route path="/Site/policy" component={Policy} exact = {true}/>
+             <Route path="/Site/TermsServices" component={TermsServices} exact = {true}/>
+             <Route path="/Site/contact" component={Contact} exact = {true}/>
             
             </switch>
 
